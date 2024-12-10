@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body {
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .category-header {
+            background-color: #757575; /* White background for category name */
+            padding: 20px;
+            border: 2px solid #000;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+    }
+</style>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fff8e1; color: #333;">
+
+    
+<header class="bg-warning text-dark p-3 d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="#">
+            <img src="download.png" class="rounded-circle" width="40px" style="margin-right: 10px;">
+        </a>
+        <h1 class="m-0 fs-4">Ninong AC Karinderya</h1>
+    </div>
+
+    <nav>
+        <ul class="d-flex gap-4 list-unstyled m-0">
+            <li><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li><a href="categories.html" class="text-dark text-decoration-none">Categories</a></li>
+            <li><a href="about.html" class="text-dark text-decoration-none">About</a></li>
+            <li><a href="submit.html" class="text-dark text-decoration-none">Submit Recipe</a></li>
+        </ul>
+    </nav>
+
+    <form class="d-flex align-items-center">
+        <input type="text" class="form-control me-2" placeholder="🔍Search">
+        <button class="btn btn-light text-warning">Search</button>
+    </form>
+</header>
+<div>
+
+<br><br><section style="padding: 20px; text-align: center;">
+            <h2 style="font-size: 28px; color:white;">Recipe Category:</h2>
+            <h2 style="font-size: 20px; color: white;">DESSERTS</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+
+                
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="banana-cue.jpg" alt="Banana Cue" style="width: 100%; height: auto; border-radius: 5px;">
+                    <h3>Banana Ice cream</h3>
+                    <p>A popular Filipino snack made with caramelized bananas and with ice cream</p><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=QgG5PDs1XCU';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="halo-halo.jpg" alt="Halo-Halo" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Halo-Halo</h3>
+                    <p>A popular Filipino dessert, mixed with a lot of condiments, such as nata de coco, leche flan, and of course ube ice cream for refreshment.</p>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=ZQrXL_9xAaA';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="mais.jpg" alt="Mais Con Yelo" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Mais Con Yelo</h3>
+                    <p>A popular Filipino dessert, corn mized with shave ice and milk.</p><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=8SwpZjSpaos';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="ube.jpg" alubet="Ube" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Ube Champorado</h3>
+                    <p>Type of Filipino sweet porridge made with glutinous rice, coconut milk and ube, traditionally champorado is prepared with tablea cocoa.</p>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=JagrKlmfl6Q';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="putobumbong.jpg" alt="Puto Bumbong" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Puto Bumbong</h3>
+                    <p>A popular Filipino dessert of steamed purple rice cakes made from glutinous rice and served with coconut and sugar</p>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=Q5Wz-JKwFkA';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+<section style="padding: 20px; text-align: center;">
+            <h2 style="font-size: 28px; color:white;">Recipe Category:</h2>
+            <h2 style="font-size: 20px; color: white;">ULAM</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+               
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="adobo.jpg" alt="Adobo" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Adobo</h3>
+                    <p>A Filipino food that has a base sarsa of soy sauce and vinegar, meat can be chicken or pork.</p><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=JpCi_2x6TqU';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="pinakbet.jpg" alt="Pinakbet" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Pinakbet</h3>
+                    <p>Mixed vegetables with the base sarsa of bagoong and other condiments.</p><br><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=QenYfNKWIhs';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="sisig.jpg" alt="Sisig" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Sisig</h3>
+                    <p>Mixed and chopped parts of a pig's head, with chilis and other condiments.</p><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=sdVZwIVetr0';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+                
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="kare-kare.jpg" alt="Kare-Kare" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Kare-Kare</h3>
+                    <p>Mixed and chopped parts of a pig's head, with chilis and other condiments.</p><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=K16Gm6KhlPw';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="pancit.jpg" alt="Pancit" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Pancit</h3>
+                    <p>Pancit is a stir-fried noodles, typically includes vegetables and meat, like chicken or pork, and served with calamansi for a citrusy flavor.</p><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=MTX_WlHohKA';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+<section style="padding: 20px; text-align: center;">
+            <h2 style="font-size: 28px; color:white;">Recipe Category:</h2>
+            <h2 style="font-size: 20px; color: white;">BEVERAGES</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+                    <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="calamansi.jpg" alt="Calamansi" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Calamansi Juice</h3>
+                    <p>Calamansi juice is a popular Filipino beverage made from calamansi, a popular citrus fruit in the Philippines.</p><br><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=-0voddugTAg';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="mango.jpg" alt="Mango Shake" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Mango-Shake</h3>
+                    <p>The Mango Shake combines the Philippines' world-renowned sweet mangoes with the smoothness of cream, creating a sumptuous and refreshing drink.</p>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=ezFLb2fM0EA';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="coconut.jpg" alt="Coconut Juice" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Cocout Juice</h3>
+                    <p>Buko Juice. Buko juice, also known as coconut water, is another refreshing and popular drink that is commonly sold on the streets</p><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=7-E26OVQq7I';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+                
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="tsokolate.jpg" alt="Tsokolate" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Tsokolate Batirol</h3>
+                    <p>Tsokolate batirol is a traditional, thick, frothy Filipino hot chocolate drink made with a wooden whisk called a batirol</p><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=99SBJKIcMjU';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+                <div style="background-color: #e1d9d1; border: 1px solid #ccc; border-radius: 5px; width: 300px; padding: 15px; text-align: center;">
+                    <img src="sagot.jpg" alt="Gulaman" style="width: 100%; height: 200px; border-radius: 5px;">
+                    <h3>Sago't Gulaman</h3>
+                    <p>Sago'tGulaman with sago pearls, grass jelly, and brown sugar syrup is a tropical cooler. It's refreshing and delicious as it is fun to eat.</p><br>
+                    <button  onclick="window.location.href='https://www.youtube.com/watch?v=5v-Eu6jUCfk';" style="background-color: #4e070c; color: white; border: none; padding: 20px 15px; cursor: pointer; border-radius: 5px;">View Cooking Video</button>
+                </div>
+
+</body>
+</html>
